@@ -7,7 +7,6 @@
     :width="size"
     :height="size"
   >
-    <title>{{ propsName }}</title>
     <mask
       id="mask__sunset"
       maskUnits="userSpaceOnUse"
@@ -90,7 +89,7 @@ export default defineComponent({
     size: {
       type: Number,
       required: true,
-    },
+    }
   },
   setup(props) {
     const sunsetColors = computed(() =>
