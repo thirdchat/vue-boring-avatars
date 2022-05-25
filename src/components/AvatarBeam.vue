@@ -143,7 +143,7 @@ export default defineComponent({
       default: false,
     },
     size: {
-      type: Number,
+      type: [Number, String],
       required: true,
     },
   },
