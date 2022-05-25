@@ -7,7 +7,6 @@
     :width="size"
     :height="size"
   >
-    <title>{{ name }}</title>
     <mask
       id="mask__ring"
       maskUnits="userSpaceOnUse"
